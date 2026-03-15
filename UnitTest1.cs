@@ -20,7 +20,7 @@ public class Tests
         Directory.CreateDirectory(Path.GetDirectoryName(path)!);
 
         File.WriteAllText(path,
-            @"Browser=Chrome
+            @"Browser=Edge
             Browser.Version=122
             Environment=QA
             OS=Windows 11

@@ -21,7 +21,7 @@ public class Tests
 
         File.WriteAllText(path,
             @"Browser=Chrome
-            Browser.Version=123
+            Browser.Version=122
             Environment=QA
             OS=Windows 11
             URL=https://www.a1qa.com");

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Product bug",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*NullReferenceException.*"
+  },
+  {
+    "name": "Test bug",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*AssertionException.*"
+  },
+  {
+    "name": "Timeout",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*timeout.*"
+  }
+]
